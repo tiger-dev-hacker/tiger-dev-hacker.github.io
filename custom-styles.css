@@ -1,0 +1,105 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add some spacing and styles to the header */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Style the main section */
+main {
+    padding: 20px;
+}
+
+/* Style the first section */
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftSection {
+    max-width: 500px;
+}
+
+.purple {
+    color: #8e44ad;
+}
+
+/* Style the second section */
+.secondSection {
+    padding-top: 20px;
+}
+
+.text-gray {
+    color: #888;
+}
+
+/* Style the experience box */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+}
+
+.experience-details {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.experience-details img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.vertical-title {
+    font-weight: bold;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    color: #333;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer-rights {
+    margin-top: 20px;
+    color: #888;
+}
+
+/* Add any additional styles as needed */
